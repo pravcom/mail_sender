@@ -1,0 +1,6 @@
+server:
+  port: 8088
+  host: localhost
+app:
+  time_loc: Asia/Yekaterinburg
+  expr: */1 * * * *
