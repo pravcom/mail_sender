@@ -9,12 +9,12 @@
 - sudo apt install docker-compose
 ## Создание нового пользователя
 - sudo adduser newuser
-- sudo usermod -aG sudo newuser
+- sudo usermod -aG sudo newuser\
 Переключиться на нового пользователя
 - su - newuser
 - sudo whoami
 ## Убрать обязательный ввод пароля
 Откройте файл конфигурации
-- sudo visudo
+- sudo visudo\
 Добавьте новое правило
 - username ALL=(ALL) NOPASSWD: ALL
